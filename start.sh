@@ -1,5 +1,5 @@
 #!/bin/sh
-
+echo hello
 # Start NordVPN service
 #service nordvpnd start
 
