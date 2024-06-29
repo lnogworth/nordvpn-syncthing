@@ -26,4 +26,4 @@ RUN chmod +x /usr/local/bin/start.sh
 EXPOSE 8384
 
 # Set the entrypoint to the startup script
-CMD ["/usr/local/bin/start.sh"]
+ENTRYPOINT ["/usr/local/bin/start.sh"]
