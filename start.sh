@@ -10,4 +10,4 @@ nordvpn login --username ${NORDVPN_USERNAME} --password ${NORDVPN_PASSWORD}
 nordvpn connect
 
 # Start Syncthing
-syncthing -gui-address="0.0.0.0:8384"
+#syncthing -gui-address="0.0.0.0:8384"
