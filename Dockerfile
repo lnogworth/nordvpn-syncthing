@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y syncthing
 
 # Copy the startup script
 COPY start.sh /usr/local/bin/start.sh
-RUN chmod +x /usr/local/bin/start.sh
+RUN chmod 7777 /usr/local/bin/start.sh
 
 # Expose Syncthing Web UI port
 EXPOSE 8384
