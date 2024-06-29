@@ -19,7 +19,7 @@ RUN echo "deb https://apt.syncthing.net/ syncthing stable" > /etc/apt/sources.li
 RUN apt-get update && apt-get install -y syncthing
 
 # Copy the startup script
-COPY * /usr/local/bin/start.sh
+COPY start.sh /usr/local/bin/start.sh
 RUN chmod +x /usr/local/bin/start.sh
 
 # Expose Syncthing Web UI port
